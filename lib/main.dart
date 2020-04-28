@@ -32,7 +32,7 @@ class _BallState extends State<Ball> {
   changeBallNumber() {
     setState(() {
       ballNumber = Random().nextInt(5) + 1;
-      print('I got clicked');
+      print('I got clicked!');
     });
   }
 
